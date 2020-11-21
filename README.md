@@ -3,6 +3,9 @@
 # High performance C# Span&lt;T> Demo
 
 [![Build Status](https://dev.azure.com/mozcode/Maximum%20Performance%20CSharp/_apis/build/status/CI-High-Performance-Span-Of-T-Demo?branchName=main)](https://dev.azure.com/mozcode/Maximum%20Performance%20CSharp/_build/latest?definitionId=4&branchName=main)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mocode-blog-web&metric=alert_status)](https://sonarcloud.io/dashboard?id=mocode-blog-web)
+
+
 
 
 
