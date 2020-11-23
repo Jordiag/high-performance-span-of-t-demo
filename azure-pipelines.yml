@@ -18,14 +18,6 @@ variables:
 steps:
 - task: NuGetToolInstaller@1
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
-    projects: '**/*.csproj'
-  env:
-    MY_SECRET: $(mySecret)
-    
-
 - task: SonarCloudPrepare@1
   inputs:
     SonarCloud: 'SonarCloudConnection'
@@ -34,9 +26,18 @@ steps:
     projectKey: 'mozcode_SpanOfT-demo'
     projectName: 'SpanOfT-demo'
 
-- task: NuGetCommand@2
+- task: UseDotNet@2
+  displayName: 'Use .NET Core sdk 5.0.100'
   inputs:
-    restoreSolution: '$(solution)'
+    packageType: 'sdk'
+    version: '5.0.100'
+    includePreviewVersions: true
+
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet restore'
+  inputs:
+    command: restore
+    projects: '**/*.csproj'
 
 - task: VSBuild@1
   inputs:
