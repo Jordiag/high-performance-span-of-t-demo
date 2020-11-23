@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{B0C03BFC-7A31-4931-AD3D-545F04251702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine", "Engine\Engine.csproj", "{B0C03BFC-7A31-4931-AD3D-545F04251702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.PerformanceBenchmarks", "Engine.PerformanceBenchmarks\Engine.PerformanceBenchmarks.csproj", "{646468A5-2F84-45FA-B379-B7C2014A3649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.PerformanceBenchmarks", "Engine.PerformanceBenchmarks\Engine.PerformanceBenchmarks.csproj", "{646468A5-2F84-45FA-B379-B7C2014A3649}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Tests", "Engine.Tests\Engine.Tests.csproj", "{DBB9DC7C-E611-4F99-A413-438CDD308B0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Tests", "Engine.Tests\Engine.Tests.csproj", "{DBB9DC7C-E611-4F99-A413-438CDD308B0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{04030FA6-27DC-4119-8BA6-DEADC286F2FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D89AE398-8AF1-46D9-843A-FEA1D9EAF1D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC136DEA-7EAD-4C44-B12E-D86E5B3C910D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
