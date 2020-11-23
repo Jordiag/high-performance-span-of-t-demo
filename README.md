@@ -26,7 +26,7 @@ Microsoft Span&lt;T> Slice method documentation:
 ## IDE and Framework
 
 - Visual Studio 2019 ([Link](https://visualstudio.microsoft.com/downloads/))
-- .NET Core 3.1
+- .NET Core 5
 
 
 
