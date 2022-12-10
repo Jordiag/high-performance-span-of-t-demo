@@ -9,7 +9,7 @@
 
 Demonstrates why Span&lt;T> slicing method is faster than other methods like a traditional loop or a LINQ expression due free memory allocation.
 
-Source code from by blog post:  http://mozcode.com/csharp-dotnet-high-performance-span-of-t
+Source code from by blog post:  http://www.mozcode.com/blog/csharp-dotnet-high-performance-span-of-t/
 
 ## Links
 
